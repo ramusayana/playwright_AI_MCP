@@ -1,0 +1,262 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/Users/kodandaram/node_modules/node/bin/node',
+1 verbose cli   '/Users/kodandaram/node_modules/.bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   '@types/node'
+1 verbose cli ]
+2 info using npm@2.15.12
+3 info using node@v19.3.0
+4 verbose install initial load of /Users/kodandaram/.nvm/versions/node/v20.6.0/lib/package.json
+5 verbose readDependencies loading dependencies from /Users/kodandaram/.nvm/versions/node/v20.6.0/lib/package.json
+6 silly cache add args [ '@types/node', null ]
+7 verbose cache add spec @types/node
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: '@types/node',
+8 silly cache add   scope: '@types',
+8 silly cache add   name: '@types/node',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag'
+8 silly cache add }
+9 silly addNamed @types/node@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for @types/node
+11 info addNameTag [ '@types/node', 'latest' ]
+12 silly mapToRegistry name @types/node
+13 silly mapToRegistry scope (from package name) @types
+14 verbose mapToRegistry no registry URL found in name for scope @types
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry data Result {
+17 silly mapToRegistry   raw: '@types/node',
+17 silly mapToRegistry   scope: '@types',
+17 silly mapToRegistry   name: '@types/node',
+17 silly mapToRegistry   rawSpec: '',
+17 silly mapToRegistry   spec: 'latest',
+17 silly mapToRegistry   type: 'tag'
+17 silly mapToRegistry }
+18 silly mapToRegistry uri https://registry.npmjs.org/@types%2fnode
+19 verbose addNameTag registry:https://registry.npmjs.org/@types%2fnode not in flight; fetching
+20 verbose request uri https://registry.npmjs.org/@types%2fnode
+21 verbose request no auth needed
+22 info attempt registry request try #1 at 11:51:18 AM
+23 verbose request id bfdc1350e290db2e
+24 verbose etag W/"634beed9e451ed96f0dbfb2520e177a5"
+25 verbose lastModified Tue, 27 May 2025 18:41:05 GMT
+26 http request GET https://registry.npmjs.org/@types%2fnode
+27 http 304 https://registry.npmjs.org/@types%2fnode
+28 verbose headers {
+28 verbose headers   date: 'Wed, 28 May 2025 10:51:19 GMT',
+28 verbose headers   connection: 'keep-alive',
+28 verbose headers   'cf-ray': '946d32345da9b546-LHR',
+28 verbose headers   'cf-cache-status': 'HIT',
+28 verbose headers   'access-control-allow-origin': '*',
+28 verbose headers   age: '184',
+28 verbose headers   'cache-control': 'public, max-age=300',
+28 verbose headers   etag: '"634beed9e451ed96f0dbfb2520e177a5"',
+28 verbose headers   'last-modified': 'Tue, 27 May 2025 18:41:05 GMT',
+28 verbose headers   vary: 'Accept-Encoding',
+28 verbose headers   'set-cookie': [
+28 verbose headers     '_cfuvid=adCIYKS_91Ab63fu4POKWjuXrg.xQD6e9y_dGpvs0Bk-1748429479119-0.0.1.1-604800000; path=/; domain=.npmjs.org; HttpOnly; Secure; SameSite=None'
+28 verbose headers   ],
+28 verbose headers   server: 'cloudflare'
+28 verbose headers }
+29 silly get cb [
+29 silly get   304,
+29 silly get   {
+29 silly get     date: 'Wed, 28 May 2025 10:51:19 GMT',
+29 silly get     connection: 'keep-alive',
+29 silly get     'cf-ray': '946d32345da9b546-LHR',
+29 silly get     'cf-cache-status': 'HIT',
+29 silly get     'access-control-allow-origin': '*',
+29 silly get     age: '184',
+29 silly get     'cache-control': 'public, max-age=300',
+29 silly get     etag: '"634beed9e451ed96f0dbfb2520e177a5"',
+29 silly get     'last-modified': 'Tue, 27 May 2025 18:41:05 GMT',
+29 silly get     vary: 'Accept-Encoding',
+29 silly get     'set-cookie': [
+29 silly get       '_cfuvid=adCIYKS_91Ab63fu4POKWjuXrg.xQD6e9y_dGpvs0Bk-1748429479119-0.0.1.1-604800000; path=/; domain=.npmjs.org; HttpOnly; Secure; SameSite=None'
+29 silly get     ],
+29 silly get     server: 'cloudflare'
+29 silly get   }
+29 silly get ]
+30 verbose etag https://registry.npmjs.org/@types%2fnode from cache
+31 verbose get saving @types/node to /Users/kodandaram/.npm/registry.npmjs.org/_40types_252fnode/.cache.json
+32 verbose correctMkdir /Users/kodandaram/.npm correctMkdir not in flight; initializing
+33 silly addNameTag next cb for @types/node with tag latest
+34 silly addNamed @types/node@22.15.23
+35 verbose addNamed "22.15.23" is a plain semver version for @types/node
+36 silly cache afterAdd @types/node@22.15.23
+37 verbose afterAdd /Users/kodandaram/.npm/@types/node/22.15.23/package/package.json not in flight; writing
+38 verbose correctMkdir /Users/kodandaram/.npm correctMkdir not in flight; initializing
+39 verbose afterAdd /Users/kodandaram/.npm/@types/node/22.15.23/package/package.json written
+40 silly install resolved [
+40 silly install resolved   {
+40 silly install resolved     name: '@types/node',
+40 silly install resolved     version: '22.15.23',
+40 silly install resolved     license: 'MIT',
+40 silly install resolved     _id: '@types/node@22.15.23',
+40 silly install resolved     maintainers: [ [Object] ],
+40 silly install resolved     contributors: [
+40 silly install resolved       [Object], [Object], [Object], [Object],
+40 silly install resolved       [Object], [Object], [Object], [Object],
+40 silly install resolved       [Object], [Object], [Object], [Object],
+40 silly install resolved       [Object], [Object], [Object], [Object],
+40 silly install resolved       [Object], [Object], [Object], [Object],
+40 silly install resolved       [Object], [Object], [Object], [Object],
+40 silly install resolved       [Object], [Object], [Object], [Object],
+40 silly install resolved       [Object], [Object], [Object], [Object],
+40 silly install resolved       [Object], [Object], [Object], [Object],
+40 silly install resolved       [Object], [Object], [Object]
+40 silly install resolved     ],
+40 silly install resolved     homepage: 'https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node',
+40 silly install resolved     dist: {
+40 silly install resolved       shasum: 'a0b7c03f951f1ffe381a6a345c68d80e48043dd0',
+40 silly install resolved       tarball: 'https://registry.npmjs.org/@types/node/-/node-22.15.23.tgz',
+40 silly install resolved       fileCount: 76,
+40 silly install resolved       integrity: 'sha512-7Ec1zaFPF4RJ0eXu1YT/xgiebqwqoJz8rYPDi/O2BcZ++Wpt0Kq9cl0eg6NN6bYbPnR67ZLo7St5Q3UK0SnARw==',
+40 silly install resolved       signatures: [Array],
+40 silly install resolved       unpackedSize: 2355432
+40 silly install resolved     },
+40 silly install resolved     main: '',
+40 silly install resolved     types: 'index.d.ts',
+40 silly install resolved     scripts: {},
+40 silly install resolved     _npmUser: { name: 'types', email: 'ts-npm-types@microsoft.com' },
+40 silly install resolved     repository: {
+40 silly install resolved       url: 'git+https://github.com/DefinitelyTyped/DefinitelyTyped.git',
+40 silly install resolved       type: 'git',
+40 silly install resolved       directory: 'types/node'
+40 silly install resolved     },
+40 silly install resolved     description: 'TypeScript definitions for node',
+40 silly install resolved     directories: {},
+40 silly install resolved     dependencies: { 'undici-types': '~6.21.0' },
+40 silly install resolved     typesVersions: { '<=5.6': [Object] },
+40 silly install resolved     _hasShrinkwrap: false,
+40 silly install resolved     peerDependencies: {},
+40 silly install resolved     typeScriptVersion: '5.1',
+40 silly install resolved     _npmOperationalInternal: {
+40 silly install resolved       tmp: 'tmp/node_22.15.23_1748371242024_0.1057342098713776',
+40 silly install resolved       host: 's3://npm-registry-packages-npm-production'
+40 silly install resolved     },
+40 silly install resolved     typesPublisherContentHash: '3844c0b84003a1c9382712245a57b4124212f8132db577606add964efd038ea4',
+40 silly install resolved     _shasum: 'a0b7c03f951f1ffe381a6a345c68d80e48043dd0',
+40 silly install resolved     _resolved: 'https://registry.npmjs.org/@types/node/-/node-22.15.23.tgz',
+40 silly install resolved     _from: '@types/node@latest',
+40 silly install resolved     bugs: {
+40 silly install resolved       url: 'https://github.com/DefinitelyTyped/DefinitelyTyped/issues'
+40 silly install resolved     },
+40 silly install resolved     readme: 'ERROR: No README data found!'
+40 silly install resolved   }
+40 silly install resolved ]
+41 info install @types/node@22.15.23 into /Users/kodandaram/.nvm/versions/node/v20.6.0/lib
+42 info installOne @types/node@22.15.23
+43 verbose installOne of @types/node to /Users/kodandaram/.nvm/versions/node/v20.6.0/lib not in flight; installing
+44 verbose correctMkdir /Users/kodandaram/.npm/_locks correctMkdir not in flight; initializing
+45 verbose lock using /Users/kodandaram/.npm/_locks/types-node-a69f984c88ac121a.lock for /Users/kodandaram/.nvm/versions/node/v20.6.0/lib/node_modules/@types/node
+46 silly install write writing @types/node 22.15.23 to /Users/kodandaram/.nvm/versions/node/v20.6.0/lib/node_modules/@types/node
+47 verbose unbuild lib/node_modules/@types/node
+48 silly gentlyRm /Users/kodandaram/.nvm/versions/node/v20.6.0/lib/node_modules/@types/node is being purged from base /Users/kodandaram/.nvm/versions/node/v20.6.0
+49 verbose gentlyRm don't care about contents; nuking /Users/kodandaram/.nvm/versions/node/v20.6.0/lib/node_modules/@types/node
+50 verbose tar unpack /Users/kodandaram/.npm/@types/node/22.15.23/package.tgz
+51 verbose tar unpacking to /Users/kodandaram/.nvm/versions/node/v20.6.0/lib/node_modules/@types/node
+52 silly gentlyRm /Users/kodandaram/.nvm/versions/node/v20.6.0/lib/node_modules/@types/node is being purged
+53 verbose gentlyRm don't care about contents; nuking /Users/kodandaram/.nvm/versions/node/v20.6.0/lib/node_modules/@types/node
+54 silly gunzTarPerm modes [ '755', '644' ]
+55 silly gunzTarPerm extractEntry
+56 silly gunzTarPerm extractEntry
+57 silly gunzTarPerm extractEntry
+58 silly gunzTarPerm extractEntry
+59 silly gunzTarPerm extractEntry
+60 silly gunzTarPerm extractEntry
+61 silly gunzTarPerm extractEntry
+62 silly gunzTarPerm extractEntry
+63 silly gunzTarPerm extractEntry
+64 silly gunzTarPerm extractEntry
+65 silly gunzTarPerm extractEntry
+66 silly gunzTarPerm extractEntry
+67 silly gunzTarPerm extractEntry
+68 silly gunzTarPerm extractEntry
+69 silly gunzTarPerm extractEntry
+70 silly gunzTarPerm extractEntry
+71 silly gunzTarPerm extractEntry
+72 silly gunzTarPerm extractEntry
+73 silly gunzTarPerm extractEntry
+74 silly gunzTarPerm extractEntry
+75 silly gunzTarPerm extractEntry
+76 silly gunzTarPerm extractEntry
+77 silly gunzTarPerm extractEntry
+78 silly gunzTarPerm extractEntry
+79 silly gunzTarPerm extractEntry
+80 silly gunzTarPerm extractEntry
+81 silly gunzTarPerm extractEntry
+82 silly gunzTarPerm extractEntry
+83 silly gunzTarPerm extractEntry
+84 silly gunzTarPerm extractEntry
+85 silly gunzTarPerm extractEntry
+86 silly gunzTarPerm extractEntry
+87 silly gunzTarPerm extractEntry
+88 silly gunzTarPerm extractEntry
+89 silly gunzTarPerm extractEntry
+90 silly gunzTarPerm extractEntry
+91 silly gunzTarPerm extractEntry
+92 silly gunzTarPerm extractEntry
+93 silly gunzTarPerm extractEntry
+94 silly gunzTarPerm extractEntry
+95 silly gunzTarPerm extractEntry
+96 silly gunzTarPerm extractEntry
+97 silly gunzTarPerm extractEntry
+98 silly gunzTarPerm extractEntry
+99 silly gunzTarPerm extractEntry
+100 silly gunzTarPerm extractEntry
+101 silly gunzTarPerm extractEntry
+102 silly gunzTarPerm extractEntry
+103 silly gunzTarPerm extractEntry
+104 silly gunzTarPerm extractEntry
+105 silly gunzTarPerm extractEntry
+106 silly gunzTarPerm extractEntry
+107 silly gunzTarPerm extractEntry
+108 silly gunzTarPerm extractEntry
+109 silly gunzTarPerm extractEntry
+110 silly gunzTarPerm extractEntry
+111 silly gunzTarPerm extractEntry
+112 silly gunzTarPerm extractEntry
+113 silly gunzTarPerm extractEntry
+114 silly gunzTarPerm extractEntry
+115 silly gunzTarPerm extractEntry
+116 silly gunzTarPerm extractEntry
+117 silly gunzTarPerm extractEntry
+118 silly gunzTarPerm extractEntry
+119 silly gunzTarPerm extractEntry
+120 silly gunzTarPerm extractEntry
+121 silly gunzTarPerm extractEntry
+122 silly gunzTarPerm extractEntry
+123 silly gunzTarPerm extractEntry
+124 silly gunzTarPerm extractEntry
+125 silly gunzTarPerm extractEntry
+126 silly gunzTarPerm extractEntry
+127 silly gunzTarPerm extractEntry
+128 silly gunzTarPerm extractEntry
+129 silly gunzTarPerm extractEntry
+130 silly gunzTarPerm extractEntry
+131 verbose unlock done using /Users/kodandaram/.npm/_locks/types-node-a69f984c88ac121a.lock for /Users/kodandaram/.nvm/versions/node/v20.6.0/lib/node_modules/@types/node
+132 verbose stack Error: ENOTDIR: not a directory, open '/Users/kodandaram/.nvm/versions/node/v20.6.0/lib/node_modules/@types/node/package.json'
+133 verbose cwd /Users/kodandaram/Documents/AI/playwright-mcp-AI
+134 error Darwin 22.6.0
+135 error argv "/Users/kodandaram/node_modules/node/bin/node" "/Users/kodandaram/node_modules/.bin/npm" "install" "--save-dev" "@types/node"
+136 error node v19.3.0
+137 error npm  v2.15.12
+138 error path /Users/kodandaram/.nvm/versions/node/v20.6.0/lib/node_modules/@types/node/package.json
+139 error code ENOTDIR
+140 error errno -20
+141 error syscall open
+142 error ENOTDIR: not a directory, open '/Users/kodandaram/.nvm/versions/node/v20.6.0/lib/node_modules/@types/node/package.json'
+143 error If you need help, you may report this error at:
+143 error     <https://github.com/npm/npm/issues>
+144 verbose exit [ -20, true ]
+145 verbose unbuild lib/node_modules/@types/node
+146 silly gentlyRm /Users/kodandaram/.nvm/versions/node/v20.6.0/lib/node_modules/@types/node is being purged from base /Users/kodandaram/.nvm/versions/node/v20.6.0
+147 verbose gentlyRm don't care about contents; nuking /Users/kodandaram/.nvm/versions/node/v20.6.0/lib/node_modules/@types/node
+148 silly vacuum-fs purging /Users/kodandaram/.nvm/versions/node/v20.6.0/lib/node_modules/@types/node
+149 silly vacuum-fs removing /Users/kodandaram/.nvm/versions/node/v20.6.0/lib/node_modules/@types
+150 silly vacuum-fs quitting because other entries in /Users/kodandaram/.nvm/versions/node/v20.6.0/lib/node_modules
